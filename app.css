@@ -1,0 +1,17 @@
+.gal {
+    column-count: 4;
+}
+.gal img {
+    width: 100%;
+    padding: 7px 0px;
+    transition: all 0.5s ease;
+}
+img:hover {
+    transform: scale(0.97);
+}
+
+@media (max-width: 500px) {
+    .gal {
+        column-count: 2;
+    }
+}
