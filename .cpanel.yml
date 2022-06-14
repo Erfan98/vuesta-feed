@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/imerfanc/photography.imerfan.com/
-    - /bin/cp -R public/* $DEPLOYPATH
+    - /bin/cp -R /* $DEPLOYPATH
